@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker run -itd --name docker-app-flask -p 5000:5000 roaaab/flask-app
