@@ -2,7 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/myapp/apphooks:
+    destination: /home/ec2-user/myapp/app
+  hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
